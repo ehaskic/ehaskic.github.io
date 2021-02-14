@@ -1,0 +1,168 @@
+
+
+.prva {
+
+position: relative;
+left: 300px;
+top:200px;
+width:500px;
+height:500px;
+
+}
+
+.tekst {
+
+	font-size: 28px;
+	font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+	position: absolute;
+	left: 320px;
+	top:260px;
+
+}
+
+.druga {
+
+	border: 2px solid white;
+	box-sizing: border-box;
+	width: 400px;
+	height: 350px;
+	position: absolute;
+	right: 380px;
+	top:140px;
+	background-color:white;
+	text-align:center;
+	border-radius: 6px;
+	box-shadow: 1px 1px 1px 1px #ccc;
+
+}
+
+h1 {
+	
+	font-size:62px;
+	color: #1877F2;
+	padding:0px;
+
+}
+
+h2 {
+
+	color:#1C1E21;
+	padding:0px;
+
+}
+
+
+body {background-color:#F0F2F5;}
+
+
+
+.treca {
+
+	position: absolute;
+	right: 400px;
+	top:510px;
+
+}
+
+
+.dugmeprvo {
+
+	height:50px;
+	width:350px;
+	font-size: 20px;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, ".SFNSText-Regular", sans-serif;
+	color:#FFFFFF; 
+	background-color:#166FE6;
+	border-radius: 6px;
+	padding:3px;
+	margin-bottom: 12px;
+	margin-top: 10px;
+	border:none;
+}
+
+.dugmedrugo {
+
+	height:50px;
+	width:290px;
+	background-color:#36A420;
+	color:#FFFFFF;
+	font-size:18px;
+	border-radius: 6px;
+	margin-bottom: 12px;
+	margin-top:25px;
+	border:none;
+}
+
+.okvir1 {
+
+border: 1px solid #ccc;
+height:50px;
+width:350px;
+border-radius: 6px;
+margin-bottom: 6px;
+margin-top: 20px;
+
+}
+
+.okvir2 {
+
+border: 1px solid #ccc;
+height:50px;
+width:350px;
+border-radius: 6px;
+margin-bottom: 6px;
+margin-top: 10px;
+
+}
+
+
+
+.cetvrta {
+
+	background-color: #FFFFFF;
+	position: absolute;
+	width: 100%;
+	bottom:10px;
+	right:auto;
+	
+
+}
+
+
+.linija {
+
+	border-top:1px solid #ccc;
+	width: 390px;
+	position: absolute;
+	right: 385px;
+	top:390px;
+	margin-bottom: 12px;
+	
+}
+
+
+.druga a {
+
+color:#1877F2;
+font-family: ystem-ui, -apple-system, BlinkMacSystemFont, ".SFNSText-Regular", sans-serif;
+font-size:14px;
+
+}
+
+a:link {
+
+
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
