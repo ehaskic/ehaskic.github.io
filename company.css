@@ -1,0 +1,64 @@
+.prvastranica {
+  background-image: url("Assets/backgroundImage.png");
+  width: auto;
+  height: 600px;
+}
+
+.menu {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.welcome {
+  font-family: serif;
+}
+
+.welcome > h1 {
+  font-size: 82px;
+  font-weight: bold;
+}
+
+.welcome > button {
+}
+
+.drugastranica {
+  width: auto;
+  height: 600px;
+}
+
+.trecastranica {
+  width: auto;
+  height: 600px;
+  background-color: #363636;
+}
+
+#services {
+  color: #ef7d00;
+}
+
+.cetvrtastranica {
+  width: auto;
+  height: 600px;
+}
+
+@media only screen and (max-width: 600px) {
+  .prvastranica {
+    width: auto;
+    height: 600px;
+  }
+
+  .drugastranica {
+    width: auto;
+    height: auto;
+  }
+
+  .trecastranica {
+    width: auto;
+    height: auto;
+  }
+
+  .cetvrtastranica {
+    width: auto;
+    height: auto;
+  }
+}
