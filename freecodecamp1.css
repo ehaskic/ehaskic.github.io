@@ -1,0 +1,48 @@
+#main {
+  background-color: #eeeeee;
+}
+
+#title {
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
+}
+
+#image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#img-div {
+  background-color: #ffffff;
+}
+
+#img-caption {
+  text-align: center;
+}
+
+#tribute-info {
+  text-align: center;
+}
+
+ul {
+  text-align: center;
+  list-style-position: inside;
+  margin-left: auto;
+  margin-right: auto;
+  width: 34em;
+}
+
+h3 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 34em;
+}
