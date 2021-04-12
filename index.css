@@ -1,0 +1,248 @@
+.prvastranica {
+  background-color: #232426;
+  width: auto;
+  height: 960px;
+}
+
+.menu {
+  width: auto;
+  height: 60px;
+  background-color: #be3144;
+}
+
+.menu > ul > li > a {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.menu a:hover {
+  background-color: #45567d;
+  height: 60px;
+}
+
+.prvastranica h1 {
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-size: 55px;
+  font-weight: bold;
+}
+
+.prvastranica > h3 {
+  color: #be3144;
+  font-family: "Poppins", sans-serif;
+  font-style: italic;
+  font-size: 28px;
+  font-weight: initial;
+  word-spacing: 0px;
+  letter-spacing: normal;
+  vertical-align: baseline;
+  line-height: 42px;
+}
+
+.drugastranica {
+  color: white;
+  background-color: #45567d;
+  width: auto;
+  height: 1360px;
+}
+
+.drugastranica > h1 {
+  text-decoration: underline;
+  text-underline-position: under;
+  font-family: "Raleway", sans-serif;
+  font-size: 42px;
+  word-spacing: 0px;
+  vertical-align: baseline;
+  letter-spacing: normal;
+  line-height: 58px;
+  font-weight: 700px;
+  font-style: normal;
+  text-transform: none;
+  text-indent: 0px;
+}
+
+.trecastranica {
+  background-color: #303841;
+  width: auto;
+  height: 960px;
+  color: white;
+}
+
+.trecastranica > h1 {
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-size: 60px;
+  line-height: 84px;
+  vertical-align: baseline;
+  word-spacing: 0px;
+  letter-spacing: normal;
+  text-align: center;
+}
+
+.trecastranica > p {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  vertical-align: baseline;
+  letter-spacing: normal;
+  word-spacing: 0px;
+  font-weight: 400;
+  font-style: italic;
+  font-variant: normal;
+  text-transform: none;
+  text-align: center;
+}
+
+.linija {
+  width: auto;
+  height: 5px;
+  border-bottom: 5px solid #be3144;
+}
+
+footer {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  vertical-align: baseline;
+  letter-spacing: normal;
+  word-spacing: 0px;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  text-align: center;
+  font-weight: 300px;
+  line-height: 25px;
+  background-color: #303841;
+}
+
+.linija > foote {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+
+.card {
+  background-color: #303841;
+  height: 70px;
+}
+
+.proba {
+  padding-top: 20px;
+  font-size: 20px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  display: block;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.code {
+  color: var(--main-gray);
+  transition: color 0.3s ease-out;
+}
+
+.proba > span {
+  color: #303841;
+}
+
+span:hover {
+  color: orangered;
+}
+
+.dugme {
+  background-color: #303841;
+  color: white;
+  width: 120px;
+  height: 50px;
+  font-size: 20px;
+}
+
+.dugmea {
+  text-align: center;
+  padding-top: 50px;
+}
+
+a:hover {
+  background-color: rgba(220, 20, 60, 0.824);
+  color: white;
+}
+
+.karta1 {
+  width: 430px;
+}
+
+.karta2 {
+  width: 430px;
+  height: 450px;
+}
+
+@media only screen and (max-device-width: 600px) and (-webkit-min-device-pixel-ratio: 2) {
+  .prvastranica {
+    display: block;
+    width: 100%;
+    height: 700px;
+  }
+
+  .prvastranica > h3 {
+    padding-top: 160px;
+  }
+
+  .menu > ul > li > a {
+    padding-left: 35px;
+  }
+
+  .drugastranica {
+    width: auto;
+    height: 3100px;
+  }
+
+  .karta1 {
+    width: 320px;
+  }
+
+  .karta2 {
+    width: 320px;
+    height: 360px;
+  }
+}
+
+//**
+
+@media only screen and (min-device-width: 800px) and (max-device-width: 1036px) {
+  .prvastranica {
+    display: block;
+    width: 100%;
+    height: 1000px;
+  }
+
+  .prvastranica > h3 {
+    padding-bottom: 200px;
+  }
+
+  .prvastranica > h1 {
+    padding-bottom: 220px;
+  }
+
+  .menu > ul > li > a {
+    padding-left: 35px;
+  }
+
+  .drugastranica {
+    width: auto;
+    height: 1700px;
+  }
+
+  .karta1 {
+    width: 320px;
+  }
+
+  .karta2 {
+    width: 320px;
+    height: 360px;
+  }
+}
+
+//*<a class="col-sm-12 col-md-12 col-xl-12" href="https://codepen.io/FreeCodeCamp/" target="_blank"><button>Show all</button></a>*//
